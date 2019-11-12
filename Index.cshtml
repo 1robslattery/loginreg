@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+</div>
+
+<!-- The below lines moves the _Register/Login.cshtml contents 'neatly' to the left and right of the page, respectively -->
+<div class="row">
+    <div class="col-md-8 well">
+        <partial Name="_Register.cshtml">
+    </div>
+    <div class="col-smdm-4 well">
+        <partial Name="_Login.cshtml">
+    </div>
+</div>
